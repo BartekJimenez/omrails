@@ -1,0 +1,15 @@
+@import 'bootstrap';
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.footer {
+
+	margin-top: 50px;
+	color: $gray-light;
+	a {
+			color: $gray
+	}
+}
