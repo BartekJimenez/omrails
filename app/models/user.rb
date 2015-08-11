@@ -11,4 +11,5 @@ class User < ActiveRecord::Base
       params.require(:user).permit(:email, :password, :password_confirmation, :remember_me, :name)
     end
 
+    has_many :pins
 end
